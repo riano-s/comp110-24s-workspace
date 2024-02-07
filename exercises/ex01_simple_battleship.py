@@ -48,3 +48,5 @@ else:
     if P2_number == 4:
         print(BLUE_BOX + BLUE_BOX + BLUE_BOX + WHITE_BOX)
     print("Incorrect! You missed the ship.")
+
+

@@ -1,3 +1,8 @@
-age: int = 21
-msg: str = f"You are {age}!"
-print(msg)
+BLUE_BOX: str = "\U0001F7E6"
+RED_BOX: str = "\U0001F7E5"
+WHITE_BOX: str = "\U00002B1C"
+
+print(WHITE_BOX + BLUE_BOX + BLUE_BOX + BLUE_BOX)
+print(WHITE_BOX + BLUE_BOX + BLUE_BOX + BLUE_BOX)
+print(WHITE_BOX + BLUE_BOX + BLUE_BOX + BLUE_BOX)
+print(WHITE_BOX + BLUE_BOX + BLUE_BOX + BLUE_BOX)
