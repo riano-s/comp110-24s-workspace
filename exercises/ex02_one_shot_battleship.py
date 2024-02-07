@@ -1,4 +1,4 @@
-"""EX02 - One Shot Battleship"""
+"""EX02 - One Shot Battleship."""
 
 __author__ = "730403386"
 
@@ -13,20 +13,20 @@ secret_column: int = 2
 row_input: str = input("Guess a row: ")
 row_number: int = int(row_input)
 while row_number > grid_size:
-    row_input: str = input("The grid is only 4 by 4. Try again: ")
-    row_number: int = int(row_input)
+    row_input = str(input("The grid is only 4 by 4. Try again: "))
+    row_number = int(row_input)
 while row_number < 1:
-    row_input: str = input("The grid is only 4 by 4. Try again: ")
-    row_number: int = int(row_input)
+    row_input = str(input("The grid is only 4 by 4. Try again: "))
+    row_number = int(row_input)
 
-column_input: str = input("Guess a column: ")
-column_number: int = int(column_input)
+column_input = str(input("Guess a column: "))
+column_number = int(column_input)
 while column_number > grid_size:
-    column_input: str = input("The grid is only 4 by 4. Try again: ")
-    column_number: int = int(column_input)
+    column_input = str(input("The grid is only 4 by 4. Try again: "))
+    column_number = int(column_input)
 while column_number < 1:
-    column_input: str = input("The grid is only 4 by 4. Try again: ")
-    column_number: int = int(column_input)
+    column_input = str(input("The grid is only 4 by 4. Try again: "))
+    column_number = int(column_input)
 
 
 row_counter = 1
@@ -61,11 +61,8 @@ if row_number == 3:
     else:
         print("Miss!")
         print("Close! Correct row, wrong column.")
-elif column_number ==2:
+elif column_number == 2:
     print("Miss!")
     print("Close! Correct column, wrong row.")
 else: 
     print("Miss!")
-    
-
-   
