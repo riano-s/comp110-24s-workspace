@@ -1,6 +1,6 @@
 """EX04 - List Utility Functions."""
 
-__author__: "730403386"
+__author__ = "730403386"
 
 
 def all(list: list[int], num: int) -> bool:
@@ -18,6 +18,9 @@ def all(list: list[int], num: int) -> bool:
 def max(input: list[int]) -> int:
     if len(input) == 0:
         raise ValueError("max() arg is an empty List")
+    counter = 0
+    while counter
+
     
 
 def is_equal(list1: list[int], list2: list[int]) -> bool:

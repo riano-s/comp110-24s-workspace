@@ -1,8 +1,10 @@
-BLUE_BOX: str = "\U0001F7E6"
-RED_BOX: str = "\U0001F7E5"
-WHITE_BOX: str = "\U00002B1C"
+def double(x: int) -> int:
+    return x * 2
 
-print(WHITE_BOX + BLUE_BOX + BLUE_BOX + BLUE_BOX)
-print(WHITE_BOX + BLUE_BOX + BLUE_BOX + BLUE_BOX)
-print(WHITE_BOX + BLUE_BOX + BLUE_BOX + BLUE_BOX)
-print(WHITE_BOX + BLUE_BOX + BLUE_BOX + BLUE_BOX)
+def double_display(y: int):
+    print(y * 2)
+
+double_display(2)
+
+if __name__ == "__main__":
+    print(double(3))

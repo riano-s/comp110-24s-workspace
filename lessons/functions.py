@@ -1,13 +1,4 @@
-"""Demonstrates function"""
-from random import randint 
+from lessons.background import double, double_display
 
-y: str = print("Hello!")
-print(y)
-
-x: int = round(10.25)
-print(x)
-
-z: int = randint(1, 7)
-print(z)
-
-round
+print (double(1))
+double_display(4)
