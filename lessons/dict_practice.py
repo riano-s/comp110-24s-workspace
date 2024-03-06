@@ -25,4 +25,5 @@ print(f"Number of vanilla orders: {ice_cream['vanilla']}")
 print("mint" in ice_cream)
 print("chocolate" in ice_cream)
 
-print(ice_cream["pecan"])
+if "mint" in ice_cream == True:
+    print ("yay")
